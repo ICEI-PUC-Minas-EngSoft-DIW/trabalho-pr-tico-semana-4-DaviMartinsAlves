@@ -1,12 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sabores e Caminhos de Belo Horizonte</title>
+    <meta name="description" content="Explore lugares e experiências inesquecíveis em Belo Horizonte.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="topo">
+        <div class="topo-texto">
+            <p class="subtitulo-topo">Lugar + Experiência</p>
+            <h1>Sabores e Caminhos de Belo Horizonte</h1>
+            <p class="descricao-topo">
+                Um guia visual sobre cultura, lazer, gastronomia e experiências marcantes na capital mineira.
+            </p>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#destaques">Destaques</a></li>
+                <li><a href="#cidade">A cidade</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-texto">
+                <span class="etiqueta">Descubra BH</span>
+                <h2>Entre ruas, sabores e memórias</h2>
+                <p>
+                    Belo Horizonte reúne tradição, modernidade e experiências que passam pela gastronomia,
+                    pela arquitetura, pela arte e pelos encontros.
+                </p>
+                <a href="#destaques" class="botao-principal">Explorar lugares</a>
+            </div>
+
+            <div class="hero-imagem">
+                <img src="img/bh.jpg" alt="Vista urbana representando Belo Horizonte">
+            </div>
+        </section>
+
+        <section id="destaques" class="destaques">
+            <div class="titulo-secao">
+                <p>Experiências selecionadas</p>
+                <h2>Lugares para viver Belo Horizonte</h2>
+            </div>
+
+            <div class="grade-cards">
+                <article class="card-lugar">
+                    <img src="img/praca.jpg" alt="Praça da Liberdade">
+                    <div class="card-conteudo">
+                        <h3>Praça da Liberdade</h3>
+                        <p>
+                            Um espaço marcante para passeios ao ar livre, visitas culturais e momentos de contemplação.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card-lugar">
+                    <img src="img/mercado.jpg" alt="Mercado Central">
+                    <div class="card-conteudo">
+                        <h3>Mercado Central</h3>
+                        <p>
+                            Um lugar perfeito para conhecer sabores típicos, produtos regionais e a energia da cidade.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card-lugar">
+                    <img src="img/pampulha.jpg" alt="Pampulha">
+                    <div class="card-conteudo">
+                        <h3>Pampulha</h3>
+                        <p>
+                            Uma experiência que mistura paisagem, arquitetura e tranquilidade em um dos cartões-postais de BH.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="cidade" class="bloco-cidade">
+            <article class="texto-cidade">
+                <p class="mini-titulo">Sobre a cidade</p>
+                <h2>Belo Horizonte como lugar de experiência</h2>
+                <p>
+                    Este projeto foi criado a partir da proposta “Lugar + Experiência”, destacando Belo Horizonte
+                    como uma cidade rica em cultura, convivência, gastronomia e lazer.
+                </p>
+                <p>
+Este projeto tem como objetivo apresentar Belo Horizonte como um espaço rico em cultura, lazer e experiências únicas. A proposta destaca pontos turísticos, locais de convivência e aspectos marcantes da cidade, organizados em uma estrutura clara com HTML e estilizados com CSS para proporcionar uma navegação agradável e intuitiva.
+</p>
+            </article>
+
+            <article class="quadro-info">
+                <h3>O que você encontra aqui</h3>
+                <ul>
+                    <li>Lugares conhecidos da cidade</li>
+                    <li>Experiências culturais e gastronômicas</li>
+                    <li>Visual inspirado em Minas Gerais</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="cadastro" class="cadastro">
+            <div class="titulo-secao">
+                <p>Receba novidades</p>
+                <h2>Cadastre-se para descobrir mais experiências</h2>
+            </div>
+
+            <form class="formulario">
+                <div class="grupo-campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+
+                <button type="submit">Quero receber dicas</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Projeto acadêmico de HTML e CSS</p>
+        <p>Davi Martins Alves - Matrícula 917012</p>
+    </footer>
 </body>
 </html>
