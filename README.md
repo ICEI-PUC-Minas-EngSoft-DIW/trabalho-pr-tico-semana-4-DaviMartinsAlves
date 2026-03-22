@@ -20,10 +20,10 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ## Print da home-page criada
 
 ### Topo
-![Topo](public/img/print_topo.png)
+![Topo](./public/img/print_topo.png)
 
 ### Conteúdo
-![Conteudo](public/img/print_body.png)
+![Conteudo](./public/img/print_body.png)
 
 ### Rodapé
-![Rodape](public/img/print_rodape.png)
+![Rodape](./public/img/print_rodape.png)
